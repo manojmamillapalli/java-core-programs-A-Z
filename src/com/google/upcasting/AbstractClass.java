@@ -10,7 +10,7 @@ abstract class A11
 	}
 	abstract public void m1();
 	abstract public int m2();
-	public void m3()
+	public static void m3()
 	{
 		System.out.println("complete function in a class");
 	}
