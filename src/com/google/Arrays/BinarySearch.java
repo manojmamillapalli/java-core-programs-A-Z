@@ -17,7 +17,7 @@ public class BinarySearch {
 		System.out.println("enter the target:");
 		int target=sc.nextInt();
 		System.out.println(Binary( arr,  start,  end,  target));
-		System.out.println(Arrays.tostr)
+		//System.out.println(Arrays.tostr)
 
 	}
 	 static int Binary(int[] arr, int start, int end, int target)

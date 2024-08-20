@@ -29,7 +29,7 @@ public class TransposeMAtrix {
 			{
 				System.out.print(trans[i][j]+ " ");
 			}
-			System.out.println();
+			System.out.println(" ");
 		}
 
 	}

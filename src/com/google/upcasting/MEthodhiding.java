@@ -1,14 +1,15 @@
 package com.google.upcasting;
 class Q
 {
-	public static void m1()
+	public  void m1()
 	{
 		System.out.println("classs A");
 	}
 }
 class L extends Q
 {
-	public static void m1()
+	@Override
+	public  void m1()
 	{
 		System.out.println("classs B");
 	}
