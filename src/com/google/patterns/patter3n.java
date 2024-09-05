@@ -3,7 +3,6 @@ import java.util.*;
 public class patter3n {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of rows to print a patterm");
         int n=sc.nextInt();

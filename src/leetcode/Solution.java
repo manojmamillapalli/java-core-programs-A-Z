@@ -9,9 +9,9 @@ public class Solution
 {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
-//		int testCases = Integer.parseInt(in.nextLine());
-		
 			String pattern = in.nextLine();
+			int i11=010;
+			System.out.println(i11);
           	//Write your code
               Stack<Character > s=new Stack<>();
             char[] ch=pattern.toCharArray();

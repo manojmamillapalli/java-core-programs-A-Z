@@ -18,7 +18,7 @@ class B extends A
 	@Override 
 	public void m1()
 	{
-		super.m1();
+		//super.m1();
 		System.out.println("class B");
 	}
 }
@@ -35,11 +35,11 @@ public class Downcasting {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         A a=new B();//upcasting
-        B b=(B)a;//downcasting
-        System.out.println(b.j);
+      //  B b=(B)a;//downcasting
+      //  System.out.println(b.j);
         a.m1();
-        b.m1();
-        b.m2();
+       // b.m1();
+       // b.m2();
 	}
 
 }
